@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bottom-container {
+  padding: 30px;
+  background-color: #000000;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.slider-container {
+  width: 90%;
+  align-self: center;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  margin: 10px;
+}
+.theme-title {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
